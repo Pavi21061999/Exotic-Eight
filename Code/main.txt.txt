@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home Fix</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600" rel="stylesheet">	
+  <style>
+  .jumbotron{
+               background-image:url("hs.jpg");
+			    background-repeat: no-repeat;
+  min-height: 200px;
+  background-size: cover;
+   }
+     .navbar {
+    margin-bottom: 0px;
+    background-color: transparent;
+    z-index: 9999;
+    border: 0;
+    font-size: 14px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: white !important;
+	font-weight:bold;
+	
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+ #bar{
+      background-color:red;
+	  height:1px;
+	  width:210px;
+	  margin-left:43%;
+	  
+	  display:block;
+ }
+ .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: grey;
+}
+
+.carousel-indicators li {
+    border-color: grey;
+}
+
+.carousel-indicators li.active {
+    background-color: black;
+}
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+
+.item span {
+    font-style: normal;
+}
+  
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+     <nav class="navbar navbar-default">
+  <div class="container" >
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a href="#"><img src="logo.png" height="200" style="position:relative; margin-top:-29%;margin-left:-80%;padding:0px;"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="main.html">HOME</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="bookings.html">SUBSCRIPTIONS</a></li>
+        <li><a href="#pricing">ABOUT</a></li>
+        <li><a href="#bye">CONTACT</a></li>
+        <li style="margin-left:90px;"><a href="divide.html">Login</a></li>
+         <li style="margin-left:1px;margin-right:0px;"><a href="signup.html">signup</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+       
+  
+     <h1 style="color:white; font-family:Eras Medium ITC;">Home Fix</h1> 
+     <p style="color:white; font-family:Lucida Sans Typewriter;">Service At Your Door Step</p> 
+</div>
+<div class="container-fluid text-center">
+  <h2>SERVICES</h2>
+  <h4>What we offer</h4>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="carpentry.html"><img src="hammer.png"></a>
+      <h4>CARPENTRY</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+     <a href="electric.html"> <img src="electric.png"></a>
+      <h4>ELECTRIC REPAIRS</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+      <a href="plumbing.html"><img src="plumbing.png"></a>
+      <h4>PLUMBING</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    </div>
+    <br><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="painting.html"><img src="paint.png"></a>
+      <h4>PAINTING</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+    <a href="geyser.html"> <img src="geyser.png"></a>
+      <h4>GEYSER REPAIRS</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4" >
+      <a href="computer.html" ><img src="comp.png"></a>
+      <h4>COMPUTER REPAIRS</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+ 
+    </div>
+  </div>
+</div>
+<br><br>
+  <div class="container-fluid text-center" id="de">
+    <h2 style="color:red">How We Work</h2>
+	<hr style="width:22%; align:center; border:0.3px solid red; background-color:red;">
+ 
+  <p style="text-align:center; font-family: 'Nunito Sans', sans-serif;; font-weight:bold; font-size:18px; "> You can book a call for AC Servicing or any other home repair service <br>requirement right from your home. It's quite easy and here's how it works
+  </p>
+  </div>
+  <br>
+  <div class="container-fluid text-center">
+    <h2 style="color:red">Our Work Flow</h2>
+	 <hr style="width:20%; align:center; border:0.5px solid grey; background-color:grey  " >
+	 <p style="text-align:center; font-weight:bold;">"Enjoy Your Required Service At 3 Steps Ahead"</p>
+  </div>
+  <div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="#" target="_blank">
+		<img src="one.png" class="center">
+		
+		<br>
+          <img src="schedule.png" alt="schedule" >
+          <div class="caption">
+            <p Style="color:brown;text-align:center;font-weight:bold;">Scedule Your Service</p>
+			<p style="text-align:center; font-weight:bold;">Fill Credential, Book Service & Relax</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="#" target="_blank">
+		<img src="teo.png" class="center">
+		<br>
+          <img src="service.png" alt="service" >
+          <div class="caption">
+            <p style="color:brown;text-align:center;font-weight:bold;">Service At Your Door Step</p>
+			<p style="text-align:center; font-weight:bold;">Keep Clam, We Will Serve At Your Door</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="#" target="_blank">
+		<img src="three.png" class="center">
+		<br>
+          <img src="tick.png" alt="tick" >
+          <div class="caption">
+            <p Style="color:brown;text-align:center;font-weight:bold;">Pay After Your Service</p>
+				<p style="text-align:center; font-weight:bold;">Make Payment After Job Get Done</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="container" style="border:0.2px solid red;">
+		<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+	 <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+	
+    <h4>"Winner"<br><span style="font-style:normal;">Best StartUp Award</span></h4>
+    </div>
+    <div class="item">
+      <h4>"30,000+"<br><span style="font-style:normal;">Satisfied Homes</span></h4>
+    </div>
+    <div class="item">
+      <h4>"23,000+"<br><span style="font-style:normal;">In House Professionals</span></h4>
+    </div>
+	    <div class="item">
+      <h4>"Verified"<br><span style="font-style:normal;"> Background Checked</span></h4>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+<br>
+<hr>
+<div class="container-fluid " style="background-color: #e6e6ff;" id="bye">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>If you have any problem with our serice, feel free to contact us.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Vignan Universty,Andhra Pradesh</p>
+      <p><span class="glyphicon glyphicon-phone"></span> 8019751979</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> homefix.247@outlook.com</p> 
+    </div>
+    <div class="col-sm-7">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
+  </body>
+</html>
